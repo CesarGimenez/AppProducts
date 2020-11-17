@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+.banner
+{
+   background: #111111;
+   margin-top: 50px;
+}
+h3
+{
+    color: #ffff;
+    font-size: 2em;
+}
+p
+{
+    color: #ffff;
+}

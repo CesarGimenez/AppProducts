@@ -1,0 +1,47 @@
+<section class="contact container">
+    <h2 class="heading">Contact</h2>
+    <div class="content">
+        <div class="contactinfo col-lg-4">
+            <h3>Contact info</h3>
+            <div class="contactinfobx" *ngFor="let compan of company">
+                <div class="box">
+                    <div class="text">
+                        <h4><i class="fa fa-map-marker-alt"></i> Address</h4>
+                        <p>Ubication,<br>city,<br>street</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <h4><i class="fa fa-phone"></i> Phone</h4>
+                        <p>{{compan.numphone}},<br>Phone2</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <h4><i class="fa fa-envelope"></i> Email</h4>
+                        <p>Email</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <h4><i class="fa fa-users"></i> Social media</h4>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="formbx col-lg-8">
+            <form class="animate__animated animate__flipInY" action="" >
+                <h3>Message info</h3>
+                <input id="client" name="name" type="text" placeholder="Full name" [(ngModel)]="name">
+                <input id="product" name="product" type="Product" placeholder="Product" [(ngModel)]="product">
+                <textarea id="message" name="message" id="" cols="30" rows="10" placeholder="Your Message" [(ngModel)]="message"></textarea>
+                 
+                <button (click)="Send()" id="submit" class="btn btn-success"><i class="fab fa-whatsapp"></i> Send message</button>
+            </form>
+        </div>
+    </div>
+</section>

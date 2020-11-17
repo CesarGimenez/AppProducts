@@ -1,0 +1,63 @@
+.contact
+{
+    color: #ffffff;
+    padding-bottom: 50px;
+
+}
+.contactinfo
+{
+    float: left;
+}
+.contact h2 
+{
+    padding-top: 60px;
+    text-align: center;
+}
+.box .text a i{
+    margin-right: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+    padding-bottom: 40px;
+}
+.box .text a:hover i{
+    font-size: 1.8em;
+}
+.formbx
+{
+    text-align: right;
+    margin-right: 0;
+    float: right;
+}
+.formbx form
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.formbx form input,
+.formbx form textarea
+{
+    margin-bottom: 20px;
+    padding:15px;
+    font-size:16px;
+    border:none;
+    outline:none;
+    background: #222;
+    color:#ffffff;
+    resize: none;
+}
+.formbx form input::placeholder,
+.formbx form textarea::placeholder
+{
+    color: #ffffff;
+}
+.formbx form button
+{
+    max-width: 200px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
